@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RxAndroid">
         <activity
-            android:name=".observable.JustActivity"
+            android:name=".observable.IntervalActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".observable.FromArrayActivity"
+            android:name=".observable.JustActivity"
             android:exported="false">
-
         </activity>
         <activity
+            android:name=".observable.FromArrayActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
